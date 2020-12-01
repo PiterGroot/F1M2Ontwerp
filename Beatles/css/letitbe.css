@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    height: 1220px;
+    background-image: url('../afb/beatles.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 152px;
+}
+.beatle{
+    width: 200px;
+    cursor: pointer;
+    
+}
+.beatle .naam{
+   opacity: 0;
+   text-shadow: 0 0 3px black;
+}
+.beatle:hover .naam{
+    opacity: 1;
+}
+#john{
+    margin-left: 117px;
+    padding-top: 405px;
+    padding-left: 272px;
+    padding-bottom: 10px;
+    
+}
+#john .naam{
+    margin-left: 98px;
+}
+#paul{
+    margin-left: 605px;
+    margin-top: -471px;
+    padding-top: 410px;
+    padding-left: 10px;
+    padding-right: 259px;
+    padding-bottom: 1px;
+}
+#ringo{
+    margin-left: 117px;
+    padding-top: 10px;
+    padding-left: 272px;
+    padding-bottom: 405px;
+    margin-top: 10px;
+}
+#ringo .naam{
+    margin-left: 98px;
+}
+#george {
+    margin-left: 605px;
+    margin-top: -471px;
+    padding-top: 10px;
+    padding-bottom: 405px;
+    padding-right: 269px;
+    
+}
+h3, p{
+    margin: 0;
+    padding: 0;
+}
+.naam{
+    border-left: solid 9px red;
+    padding-left: 9px;
+}
